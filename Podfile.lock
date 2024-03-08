@@ -1,0 +1,134 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AvoidCrash (2.5.2)
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - Bugly (2.5.90)
+  - CoreBitcoin (0.6.8.1):
+    - ISO8601DateFormatter
+    - OpenSSL-Universal (= 1.0.1.16)
+  - HBDNavigationBar (1.8.0)
+  - IQKeyboardManager (6.5.6)
+  - ISO8601DateFormatter (0.8)
+  - JCore (2.7.1)
+  - JPush (3.7.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JXCategoryView (1.5.9)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.3.0)
+  - MJRefresh (3.6.1)
+  - OpenSSL-Universal (1.0.1.16)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SGQRCode (3.5.0)
+  - SocketRocket (0.5.1)
+  - YYModel (1.0.4)
+  - ZWPlaceHolder (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AvoidCrash (~> 2.5.2)
+  - BGFMDB
+  - Bugly
+  - CoreBitcoin (from `https://github.com/singer1026/CoreBitcoin.git`)
+  - HBDNavigationBar
+  - IQKeyboardManager
+  - JPush (= 3.7.0)
+  - JXCategoryView
+  - lottie-ios (~> 2.5.2)
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - SDCycleScrollView
+  - SDWebImage
+  - SGQRCode (~> 3.5.0)
+  - SocketRocket
+  - YYModel
+  - ZWPlaceHolder
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - AvoidCrash
+    - BGFMDB
+    - Bugly
+    - HBDNavigationBar
+    - IQKeyboardManager
+    - ISO8601DateFormatter
+    - JCore
+    - JPush
+    - JXCategoryView
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - OpenSSL-Universal
+    - SDCycleScrollView
+    - SDWebImage
+    - SGQRCode
+    - SocketRocket
+    - YYModel
+    - ZWPlaceHolder
+
+EXTERNAL SOURCES:
+  CoreBitcoin:
+    :git: https://github.com/singer1026/CoreBitcoin.git
+
+CHECKOUT OPTIONS:
+  CoreBitcoin:
+    :commit: fc3b1b12f3e64f64ace0d71d7900c479496dc243
+    :git: https://github.com/singer1026/CoreBitcoin.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  CoreBitcoin: 13d84e9650b7592b8feda7528f6b6ef6b770c4b6
+  HBDNavigationBar: 8a24d0348ad4371614569e3d015d46e41824b061
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  JCore: 9d5bda3a172c65bbe14f2806ab0f6246f8a06065
+  JPush: 1fd7a326e7e6588eba517659ce1b79a144e54938
+  JXCategoryView: 2ef9ecfd3735158d009ce02d1f29811aa822da65
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
+  OpenSSL-Universal: 85ef63bf81d0741b03c8719cd29685c37c59518d
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SGQRCode: d92dd8bd2af665b7e0d76098c5b70e59d2a2609f
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZWPlaceHolder: d55cce10c9930b48c31bf48e7f4748974a31f7e0
+
+PODFILE CHECKSUM: 021bd7d909f493d7ad757790dc02cb262725d508
+
+COCOAPODS: 1.10.1

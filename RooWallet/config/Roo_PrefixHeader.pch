@@ -1,0 +1,17 @@
+//
+//  Roo_PrefixHeader.pch
+//  RooWallet
+//
+//  Created by mac on 2021/6/15.
+//
+
+#ifndef Roo_PrefixHeader_pch
+#define Roo_PrefixHeader_pch
+#import "RooHeader.h"
+#import "APIDefine.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Roo_PrefixHeader_pch */
